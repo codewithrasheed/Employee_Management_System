@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #fff;
+}
+
+body{
+  background-color: #000;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+
+
+.tasknumber {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .tasknumber{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 740px) {
+  .tasknumber{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: max-content;
+  }
+  .tasknumber div {
+    width: 330px;
+  }
+  
+}
+
+@media screen and (max-width: 760px) {
+  .employeedash{
+    height: 100%;
+    /* background-color: #1c1c1c; */
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .taskListHeading{
+    padding: 6px 10px;
+    gap: 10px;
+  }
+  .taskListHeading h3{
+    font-size: 12px;
+  }
+  .taskListNumber{
+    padding: 6px 10px;
+    gap: 10px;
+  }
+  .taskListNumber h2{
+    font-size: 12px;
+    }
+    .taskListMain{
+      padding: 14px;
+    }
+    .admindash{
+      padding: 37px;
+    }
+    .createTask{
+      padding: 12px;
+    }
+    .createTask1 {
+      width: 45%;
+
+    }
+    .createTask1 h3{
+      font-size: 12px;
+    }
+    .createTask1 input{
+      font-size: 12px;
+      height: 20px;
+    }
+    .createTask2{
+      width: 35%;
+    }
+    .createTask2 h3{
+      font-size: 12px;
+    }
+    .createTask2 textarea{
+      height: 100px;
+    }
+    .createTask2 button {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+}
