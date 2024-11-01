@@ -1,11 +1,13 @@
 # Employee Management System Project
 ## React + Vite
 
-I Created a Employee Management System Project with React.js Tailwind Css and Local Storage
+I have Created an Employee Management System Project with React.js Tailwind CSS and Local Storage
 
 in this project we have two dashboards and one login page.
 1) Admin Dashboard
 2) Employee Dashboard
+
+Live Preview: https://employee-management-system-steel.vercel.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
