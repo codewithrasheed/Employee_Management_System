@@ -13,9 +13,9 @@ const Login = ({handleLogin}) => {
 
   return (
     <>
-    <h1 className="text-4xl text-center uppercase w-full bg-[#059669] text-white p-5">Employee Management System</h1>
+    <h1 className="text-4xl text-center uppercase bg-[#059669] text-white p-5 ems">Employee Management System</h1>
     <div className='flex items-center justify-center mt-16'>
-        <div className='border-2 border-emerald-600 p-20 rounded-xl relative'>
+        <div className='border-2 border-emerald-600 p-20 rounded-xl relative login'>
             <h2 className='text-3xl mt-6 absolute top-0'>Login</h2>
             <form
             onSubmit={(e)=>{
