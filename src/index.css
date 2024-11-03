@@ -8,6 +8,7 @@
 
 body{
   background-color: #000;
+  overflow-x: hidden;
 }
 
 #tasklist::-webkit-scrollbar{
@@ -47,7 +48,7 @@ body{
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .taskListHeading{
     padding: 6px 10px;
     gap: 10px;
@@ -96,9 +97,29 @@ body{
       padding: 8px 10px;
     }
     .login{
-      padding: 55px;
+      padding: 45px;
+      /* height: 100%; */
     }
     .ems{
-      font-size: 25px;
+      font-size: 20px;
     }
+    .logheading{
+      font-size: 22px;
+      left: 55px;
+      /* right: 1px; */
+      top: -13px;
+    }
+    .email{
+      padding: 8px 28px;
+      font-size: 15px;
+    }
+    .btn{
+      padding-left: 92px;
+      padding-right: 92px;
+      font-size: 18px;
+    }
+    
+}
+.btn:hover{
+  background-color: #065a3f;
 }
